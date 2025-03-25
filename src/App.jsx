@@ -7,7 +7,7 @@ import "./index.css";
 
 export default function UnderConstruction() {
   return (
-    <div className="h-screen flex flex-col items-center md:justify-center mb-4 bg-cover bg-center text-white px-4 text-center font-['Red_Hat_Display']" style={{ backgroundImage: `url(${bgImage})` }}>
+    <div className="min-h-screen flex flex-col items-center md:justify-center bg-cover bg-center text-white px-4 text-center font-['Red_Hat_Display']" style={{ backgroundImage: `url(${bgImage})` }}>
       {/* Logo */}
       <img src={logo} alt="capitalxfinancelogo" className="w-73  mb-8" />
       
@@ -25,7 +25,7 @@ export default function UnderConstruction() {
         <img src={qrCode} alt="WhatsApp QR Code" className="w-32 h-32" />
         
         {/* Contact Details */}
-        <div className="flex flex-col items-center md:items-start gap-1 md:gap-4 text-lg">
+        <div className="flex flex-col items-center md:items-start gap-1 mb-2.5 md:gap-4 text-lg">
           <div className="flex items-center gap-2">
             <IoCallOutline className="text-white text-2xl" />
             <span>066 316 6041</span>
