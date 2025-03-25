@@ -7,7 +7,7 @@ import "./index.css";
 
 export default function UnderConstruction() {
   return (
-    <div className="min-h-screen flex flex-col items-center md:justify-center bg-cover bg-center text-white px-4 text-center font-['Red_Hat_Display']" style={{ backgroundImage: `url(${bgImage})` }}>
+    <div className="min-h-screen flex flex-col items-center md:justify-center mb-4 bg-cover bg-center text-white px-4 text-center font-['Red_Hat_Display']" style={{ backgroundImage: `url(${bgImage})` }}>
       {/* Logo */}
       <img src={logo} alt="capitalxfinancelogo" className="w-73  mb-8" />
       
